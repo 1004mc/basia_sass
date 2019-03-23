@@ -1,0 +1,14 @@
+{
+  "name": "basia_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style_bild_hover.css -w"
+  },
+  "author": "marek",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
