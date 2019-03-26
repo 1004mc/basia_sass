@@ -206,3 +206,56 @@ font-size: 1.5em;
 	right: 40px;
 	bottom: 40px;
 }
+
+// opening Hours
+
+.OpeningHours {
+	font-family: Lucida Console;
+	padding: 150px 10px 0 10px;
+	display: inline-block;
+	color: white;
+}
+
+.OpeningHours__Content {
+	float: left;
+}
+
+.OpeningHours__Status {
+	font-size: 1rem;
+}
+
+.Day--Today {
+	color: lawngreen;
+}
+
+.OpeningHours__Table tr td:first-child {
+	font-weight: bold;
+}
+
+.OpeningHours__Status {
+	display: block;
+	margin-top: -1em;
+	text-align: center;
+}
+
+.OpeningHours__Status:after {
+	content: " open at these times:";
+}
+
+.OpeningHours__Status--Open {
+	color: white;
+}
+
+.OpeningHours__Status--Open:after {
+	content: " geöffnet";
+	color: #6C0;
+}
+
+.OpeningHours__Status--Closed:after {
+	content: " geschlossen";
+	color: red;
+}
+
+.OpeningHours__Table tr td {
+	padding: 5px;
+}
